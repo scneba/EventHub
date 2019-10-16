@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/help" />
+
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/login_register"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="@string/login_register" />
+
+        <item
+            android:id="@+id/registeredEvent"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="@string/registered_events" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/update_fav"
+            android:icon="@android:drawable/arrow_up_float"
+            android:title="@string/update_fav" />
+
+        <item
+            android:id="@+id/register_event"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/register_event" />
+
+
+    </group>
+
+
+</menu>

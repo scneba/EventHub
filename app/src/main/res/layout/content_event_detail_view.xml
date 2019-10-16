@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/tv_eventname"
+        android:layout_width="196dp"
+        android:layout_height="0dp"
+        android:background="@color/colorWhite"
+        android:elevation="3dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLines="2"
+        android:paddingTop="3dp"
+        android:text="Youth connect Africa"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_thumbnail"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorWhite"
+        android:paddingTop="3dp"
+        android:elevation="3dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLines="2"
+        android:text="TextView"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toEndOf="@+id/tv_eventname"
+        app:layout_constraintTop_toBottomOf="@+id/imv_thumbnail"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/colorWhite"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_eventname" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:text="ssssssssssssssssssss"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        android:elevation="5dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_location2"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:layout_marginTop="8dp"
+        android:text="TeeeeeeeeeextView"
+        android:elevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date"
+        />
+
+    <Button
+        android:id="@+id/btn_add_calendar"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintWidth_percent="0.4"
+        android:background="@drawable/button_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12dp"
+        android:text="@string/add_calendar"
+        android:translationZ="2dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_date"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btn_see_location"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintWidth_percent="0.4"
+        android:background="@drawable/button_selector"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        android:elevation="5dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/goto_location"
+        android:translationZ="2dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toEndOf="@+id/tv_location2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add_calendar" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="5dp"
+        android:padding="2dp"
+        android:gravity="start"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_location2" />
+
+    <Button
+        android:id="@+id/btn_website"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/visit_web"
+        android:textColor="@color/colorWhite"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <ImageView
+        android:id="@+id/imv_like"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cardview_selector"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/tv_like"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="5dp"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.4"
+        android:background="@drawable/button_selector"
+        android:elevation="3dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/by_likes"
+        android:orderInCategory="101"
+        android:title="@string/by_likes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/by_distance"
+        android:orderInCategory="102"
+        android:title="@string/by_distance"
+        app:showAsAction="never" />
+</menu>

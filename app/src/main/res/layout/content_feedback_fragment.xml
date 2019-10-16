@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/et_title"
+        style="@style/App_EditTextStyle"
+        android:inputType="textMultiLine"
+        android:hint="@string/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_feedback"
+        style="@style/App_EditTextStyle"
+        android:inputType="textMultiLine"
+        android:hint="@string/feedback"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_title" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/App_Button_Style"
+        android:text="@string/register"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        android:layout_marginBottom="@dimen/editTextMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_feedback"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.LoginActivity"
+    android:layout_margin="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <ImageView
+        android:id="@+id/imv_placeholder"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/et_username"
+        style="@style/App_EditTextStyle"
+        android:inputType="textPersonName"
+        android:hint="@string/username_email"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imv_placeholder" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/App_EditTextStyle"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_username" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        android:text="@string/remember_me"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_password" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/App_Button_Style"
+        android:text="@string/login"
+        android:layout_marginTop="@dimen/editTextMarginTop"
+        android:layout_marginBottom="@dimen/editTextMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox"/>
+
+
+    <TextView
+        android:id="@+id/tv_categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/editTextHeight"
+        android:text="@string/donot_have_acc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_login" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/textview_selector"
+        app:layout_constraintStart_toEndOf="@id/tv_categories"
+        app:layout_constraintTop_toBottomOf="@id/btn_login" />
+
+
+</android.support.constraint.ConstraintLayout>

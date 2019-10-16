@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name" translatable="false">EventHub</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="details">Event Details</string>
+    <string name="event_register">Register Event</string>
+
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="login_register">Login/Register</string>
+    <string name="settings">Settings</string>
+    <string name="update_fav">Update Favourites</string>
+    <string name="register_event">Register Event</string>
+    <string name="approve_reject">Approve Registration</string>
+
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+
+    <!-- validation strings -->
+    <string name="required">Required</string>
+    <string name="passwordErr">Password should be longer than 4 characters</string>
+    <string name="emailErr">Invalid Email address</string>
+    <string name="usernameError">Username already exist</string>
+
+    <string name="email_exist">Email already exist</string>
+    <string name="username_exist">Username already exist</string>
+    <string name="username_invalid">Username or email not found</string>
+    <string name="password_invlid">Invalid Password</string>
+    <string name="unable_reach_server">Unable to reach server</string>
+    <string name="noint">No internet connection on device</string>
+    <string name="user_registered">User successfully registered</string>
+    <string name="login_successful">Login successful</string>
+    <string name="logout_success">Logout Succcessful</string>
+    <string name="register_succcess">Registeration successful</string>
+    <string name="like_success">Like Successful</string>
+    <string name="remember_me">Remember me</string>
+    <string name="user_already_registered">User already registered</string>
+    <string name="user_already_liked">User already liked event</string>
+    <string name="reload">RELOAD</string>
+    <string name="please_wait">Please wait</string>
+    <string name="username_email">Username or Email</string>
+    <string name="donot_have_acc">Do no have an account yet</string>
+
+
+    <string name="add_calendar">Add to Calendar</string>
+    <string name="registering">Registering........</string>
+    <string name="goto_location">Go to Location</string>
+    <string name="visit_web">Visit Website</string>
+    <string name="no_website">Website not available</string>
+    <string name="turn_on_gps">Please, turn on GPS to get your current location</string>
+
+    <string name="to">to</string>
+    <string name="my_location">My Location</string>
+    <string name="no_fav">No favourites found</string>
+    <string name="ok">OK</string>
+    <string name="title">Title</string>
+    <string name="feedback">Feedback</string>
+    <string name="cancel">Cancel</string>
+    <string name="registered_events">Registered Events</string>
+    <string name="no_location">No location provided</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="ask_permission">Please, this application needs to access your location, accept to use location</string>
+    <string name="ask_permission_calendar">Please, this application needs to access your calendar in order to add the event</string>
+
+    <string name="about_app">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="help_app">Help help help</string>
+
+    <string name="firebase_msg">updates</string>
+    <string name="refresh">Refresh</string>
+    <string name="by_likes">By likes</string>
+    <string name="placeholder_email">eventhub@info.com</string>
+    <string name="by_distance">By Location</string>
+    <string name="failed_last_position">Failed to get last position, searching by likes </string>
+</resources>
